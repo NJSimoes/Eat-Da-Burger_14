@@ -8,6 +8,8 @@
 CREATE DATABASE burgers_db;
 USE burgers_db;
 
+USE xtjv4atgsal4f884;
+
 -- Create the table tasks.
 CREATE TABLE burgers
 (
@@ -16,8 +18,3 @@ burger_name varchar(255) NOT NULL,
 devoured boolean,
 PRIMARY KEY (id)
 );
-
--- -- Insert a set of records.
--- INSERT INTO tasks (task) VALUES ('Pick up milk.');
--- INSERT INTO tasks (task) VALUES ('Mow the lawn.');
--- INSERT INTO tasks (task) VALUES ('Call Shannon back.');
